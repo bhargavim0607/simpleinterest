@@ -17,7 +17,8 @@ var t,p,r;
        
         console.log(t,r);
     }    
-    var SI=Math.ceil(p*t*r/100);
+    var Si=(p*t*r/100);
+     var SI=Si.toFixed(2)
     var a=new Number(p)+new Number(SI);
         document.getElementById("si").innerHTML="The Interest Is:$"+SI;
         document.getElementById("ci").innerHTML="The Amount Is:$"+a;
