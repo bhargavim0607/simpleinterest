@@ -1,0 +1,48 @@
+table{
+   
+    margin-top: 20px;
+    
+    padding: 10px;
+}
+td{
+    text-align: center;
+   
+    padding: 50px;
+}
+tr{
+    padding: 20px;
+    text-align: center;
+    
+}
+*{
+    font-size: large;
+    text-align: center;
+}
+body{
+    text-align: center;
+    align-self: center;
+    margin-left: 200px;
+}
+.container{
+    box-shadow: 2px 3px 1px 4px grey;
+    height: 500px;
+    width: 300px;
+}
+input{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+select{
+border-radius: 5px;
+}
+button{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 3px 2px 3px 2px coral;
+}
+input:hover{
+    box-shadow:1px 1px 1px 4px grey ;
+}

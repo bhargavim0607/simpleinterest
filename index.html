@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Simple Interest</title>
+</head>
+<body>
+    <h1 style="text-align: center;">SIMPLE INTEREST CALCULATOR</h1>
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <td>PRINCIPAL AMOUNT:</td>
+                <td><input type="text" id="p"></td>
+                </tr>
+                <tr>
+                    <td>RATE OF INTEREST:  </td>
+                    <td><input type="text" id="r"></td>
+                    <td>(in % per)</td>
+                    <td><select name="time" id="timer">
+                        <option value="y">YEARS</option>
+                        <option value="m">MONTHS</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Time:</td>
+                    <td><input type="text" id="t"></td>
+                    <td>(in) </td>
+                    <td><select name="time" id="timet">
+                        <option value="y">YEARS</option>
+                        <option value="m">MONTHS</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><button value="" onclick="calsi()">CALCULATE SIMPLE INTEREST</button></td>
+                </tr>
+            </table>
+            <h2 id="si"></h2>
+            <h2 id="ci"></h2>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
